@@ -154,56 +154,6 @@ OpenAI API key OR Anthropic API key
 
 
 
-# Run the basic demo
-python examples/run_complete_demo.py
-```
-
-**Expected Output:**
-```
-╔====================================================================╗
-║       🐝 HIVE AD AGENT - COMPLETE AI DEMO 🐝                      ║
-╚====================================================================╝
-
-======================================================================
-  STEP 1: INITIALIZING AI ENGINE
-======================================================================
-🤖 AI Engine: openai | Model: gpt-4o-mini
-✓ AI Provider: openai
-
-======================================================================
-  STEP 2: INITIALIZING THE HIVE
-======================================================================
-🐝 queen_bee_001 started
-🐝 shopper_bee_001 started
-👑 Registered: shopper_bee_001 (shopper_bee)
-🐝 ad_bee_001 started
-👑 Registered: ad_bee_001 (ad_bee)
-✓ Hive ready with 2 worker bees!
-
-======================================================================
-  STEP 3: EXECUTING AI-POWERED WORKFLOW
-======================================================================
-...
-✓ AI Workflow completed successfully!
-
-🤖 AI Usage Statistics:
-  Total Requests: 4
-  Total Tokens: 3,847
-  Total Cost: $0.0089
-
-
-
-  Model Selection
-Change AI models in code:
- In backend/ai_engine.py
-# For OpenAI
-self.model = "gpt-4o-mini"      # Cheap & fast
-# self.model = "gpt-4"           # Powerful
-# self.model = "gpt-4-turbo"     # Balanced
-
-# For Anthropic
-self.model = "claude-3-5-sonnet-20241022"  # Latest
-# self.model = "claude-3-opus-20240229"    # Most capable
 
 
 
