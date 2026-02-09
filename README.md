@@ -86,7 +86,7 @@ OpenAI API key OR Anthropic API key
 
 
 
- 📁 Project Structure
+ Project Structure
 ```
 hive-ad-agent/
 │
