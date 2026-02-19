@@ -57,10 +57,12 @@ class ConversationMemory:
                 "content": turn.content
             })
         return messages
+
     
     def get_recent_context(self, n: int = 5) -> List[ConversationTurn]:
         """Get N most recent turns"""
         return list(self.turns)[-n:]
+
     
     def clear(self):
         """Clear conversation history"""
@@ -88,6 +90,7 @@ class EnhancedAIEngine(AIEngine):
     Enhanced AI Engine with memory and context
     Extends base AIEngine with conversation tracking
     """
+
     
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
