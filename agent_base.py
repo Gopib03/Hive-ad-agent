@@ -12,6 +12,8 @@ import asyncio
 import uuid
 
 
+
+
 class AgentRole(Enum):
     """Agent roles in the hive"""
     QUEEN = "queen"
